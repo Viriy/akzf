@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>安康市农业综合执法规范办案系统</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="dist/css/layui.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="min clearfix">
+        <nav class="fr f12 white tc clearfix mr">
+            <a href="" title="法律法规" alt="法律法规"><i class="i i_law"></i><p>法律法规</p></a>
+            <a href="user.html" title="用户中心" alt="用户中心"><i class="i i_user"></i><p>用户中心</p></a>
+            <a href="login.html" title="退出" alt="退出"><i class="i i_exit"></i><p>退出</p></a>
+        </nav>
+        <a class="logo_l logo_s fl" href="" title="安康市农业综合执法规范办案系统" alt="安康市农业综合执法规范办案系统"></a>
+    </header>
+    <div class="site_wrap f14">
+        <i class="i i_pos"></i><a href="">首页</a><b>></b><em>法律法规数据库</em>
+    </div>
+    <article>
+        <!-- 筛选 -->
+        <form class="layui-form" action="">
+            <div class="search_wrap mt">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">选择文书</label>
+                        <div class="layui-input-block">
+                            <select name="interest">
+                                <option value="">请选择</option>
+                                <option value="">结案报告</option>
+                                <option value="">强制执行申请书</option>
+                                <option value="">案件移送书</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">选择模板</label>
+                        <div class="layui-input-block">
+                            <select name="interest">
+                                <option value="">请选择</option>
+                                <option value="">医生无证</option>
+                                <option value="">医疗废物处理</option>
+                                <option value="">无证行医模板</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">高级搜索</label>
+                        <div class="layui-input-inline">
+                            <input type="text" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <button class="layui-btn blue" lay-submit="">查 询</button>
+                    </div>
+                    <div class="layui-inline">
+                        <button class="layui-btn green" lay-submit=""><i class="i i_print mr5"></i>打印</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- table1 -->
+        <table class="layui-table table_filter f16 colorlight" lay-skin="grey">
+            <tbody>
+                <tr>
+                    <td width="160" bgcolor="#3a87c9">>>1</td>
+                    <td>
+                        <a class="active" href="javascript:;">种植</a>
+                        <a href="javascript:;">农机</a>
+                        <a href="javascript:;">畜牧兽医</a>
+                        <a href="javascript:;">水产</a>
+                        <a href="javascript:;">综合类</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="160" bgcolor="#3a87c9">>>2</td>
+                    <td>
+                        <a href="javascript:;">肥料</a>
+                        <a href="javascript:;">农田</a>
+                        <a href="javascript:;">农药</a>
+                        <a class="active" href="javascript:;">野生植物</a>
+                        <a href="javascript:;">种子</a>
+                        <a href="javascript:;">转基因生物</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="160" bgcolor="#3a87c9">>>3</td>
+                    <td>
+                        <a href="javascript:;">采集活动</a>
+                        <a href="javascript:;">二级保护</a>
+                        <a href="javascript:;">监督检查</a>
+                        <a href="javascript:;">一级保护</a>
+                        <a class="active" href="javascript:;">重点保护</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="160" bgcolor="#3a87c9">>>4</td>
+                    <td>
+                        <a class="active" href="javascript:;">单位/个人</a>
+                        <a href="javascript:;">行政主管</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="160" bgcolor="#3a87c9">>>5</td>
+                    <td>
+                        <a href="javascript:;">出售/收购</a>
+                        <a href="javascript:;">非法采集</a>
+                        <a href="javascript:;">建设项目</a>
+                        <a class="active" href="javascript:;">申请采集</a>
+                        <a href="javascript:;">许可证</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- table2 -->
+
+        <table class="layui-table f15 colorlight mt" lay-skin="blue">
+            <colgroup>
+                <col width="3%"></col>
+                <col width="8%"></col>
+                <col width="15%"></col>
+                <col width="15%"></col>
+                <col width="10%"></col>
+                <col width="15%"></col>
+                <col width="8%"></col>
+                <col width="18%"></col>
+                <col width="8%"></col>
+            </colgroup>
+            <thead>
+                <tr><th>序号</th><th>关键字</th><th>检查内容</th><th>规范用语</th><th>定性依据</th><th>监督意见</th><th>处理意见</th><th>处理内容</th><th>是否处理</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">单位/个人/建设项目</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td align="center"><a class="blue" href="">《农业野生植物保护办法》第十条</a></td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td></td>
+                    <td>违反本条例规定非法占用、破坏基本农田的，按《中华人民共和国土地管理法》和《北京市实施〈中华人民共和国土地管理法〉办法》的规定，由土地行政主管部门责令退还非法占用的土地，限期拆除在非法占用的土地上新建的建筑物和其他设施，恢复地貌并处以罚款</td>
+                    <td align="center"><a class="handle on" href="javascript:;"></a></td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td align="center">单位/个人/建设项目</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td align="center"><a class="blue" href="">《农业野生植物保护办法》第十条</a></td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td></td>
+                    <td>违反本条例规定非法占用、破坏基本农田的，按《中华人民共和国土地管理法》和《北京市实施〈中华人民共和国土地管理法〉办法》的规定，由土地行政主管部门责令退还非法占用的土地，限期拆除在非法占用的土地上新建的建筑物和其他设施，恢复地貌并处以罚款</td>
+                    <td align="center"><a class="handle" href="javascript:;"></a></td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td align="center">单位/个人/建设项目</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td align="center"><a class="blue" href="">《农业野生植物保护办法》第十条</a></td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td></td>
+                    <td>违反本条例规定非法占用、破坏基本农田的，按《中华人民共和国土地管理法》和《北京市实施〈中华人民共和国土地管理法〉办法》的规定，由土地行政主管部门责令退还非法占用的土地，限期拆除在非法占用的土地上新建的建筑物和其他设施，恢复地貌并处以罚款</td>
+                    <td align="center"><a class="handle" href="javascript:;"></a></td>
+                </tr>
+                <tr>
+                    <td align="center">4</td>
+                    <td align="center">单位/个人/建设项目</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td align="center"><a class="blue" href="">《农业野生植物保护办法》第十条</a></td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td></td>
+                    <td>违反本条例规定非法占用、破坏基本农田的，按《中华人民共和国土地管理法》和《北京市实施〈中华人民共和国土地管理法〉办法》的规定，由土地行政主管部门责令退还非法占用的土地，限期拆除在非法占用的土地上新建的建筑物和其他设施，恢复地貌并处以罚款</td>
+                    <td align="center"><a class="handle" href="javascript:;"></a></td>
+                </tr>
+                <tr>
+                    <td align="center">5</td>
+                    <td align="center">单位/个人/建设项目</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td align="center"><a class="blue" href="">《农业野生植物保护办法》第十条</a></td>
+                    <td>在国家重点保护野生植物生长地或周边地区实施建设项目，建设单位未在该建设项目环境影响评价报告书中对是否影响野生植物生存环境作出专项评价</td>
+                    <td></td>
+                    <td>违反本条例规定非法占用、破坏基本农田的，按《中华人民共和国土地管理法》和《北京市实施〈中华人民共和国土地管理法〉办法》的规定，由土地行政主管部门责令退还非法占用的土地，限期拆除在非法占用的土地上新建的建筑物和其他设施，恢复地貌并处以罚款</td>
+                    <td align="center"><a class="handle" href="javascript:;"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <!-- /header -->
+    <footer class="f14 tc f_bg">
+        ©Copyright 2018 西安承信网络信息技术有限公司 <a href="">陕ICP备12009410号-1</a>
+    </footer>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="dist/layui.js" type="text/javascript"></script>
+    <script>
+    //Demo
+    layui.use('form', function() {
+        var form = layui.form;
+
+        //监听提交
+        form.on('submit(formDemo)', function(data) {
+            layer.msg(JSON.stringify(data.field));
+            return false;
+        });
+    });
+
+    $(".table_filter a").click(function(){
+        $(this).addClass("active").siblings().removeClass("active")
+    })
+
+    $(".handle").click(function(){
+        $(this).toggleClass("on")
+    })
+    </script>
+</body>
+
+</html>
