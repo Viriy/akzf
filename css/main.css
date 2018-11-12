@@ -112,7 +112,7 @@ article{padding:0 30px 120px}
 
 
 
-.layui-form-select dl dd.layui-this,.layui-laydate .layui-laydate-content .layui-this{background:#3292e5 !important}
+.layui-form-select dl dd.layui-this,.layui-laydate .layui-laydate-content .layui-this,.layui-laypage .layui-laypage-curr .layui-laypage-em,.layui-btn{background:#3292e5 !important}
 .layui-form-item .layui-inline{vertical-align:top}
 
 .layui-btn{padding:0 24px}
