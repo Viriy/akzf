@@ -59,7 +59,7 @@
                 </div>
             </div>
         </form>
-        <table class="layui-hide" id="test" lay-filter="test"></table>
+        <table class="layui-hide tc" id="test" lay-filter="test"></table>
         <script type="text/html" id="barDemo">
             <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
             <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
@@ -92,7 +92,6 @@
         table.render({
             elem: '#test',
             url: 'js/demo1.json',
-            toolbar: '#toolbarDemo',
             title: '用户数据表',
             cols: [
                 [{
@@ -101,14 +100,14 @@
                 }, {
                     field: 'number',
                     title: '序号',
-                    width: 80,
+                    width: 100,
                     fixed: 'left',
                     unresize: true,
                     sort: true
                 }, {
                     field: 'name1',
                     title: '被询问人姓名',
-                    width: 100,
+                    width: 160,
                     edit: 'text'
                 }, {
                     field: 'gender',
@@ -122,15 +121,16 @@
                     width: 160
                 }, {
                     field: 'address',
-                    title: '工作单位'
+                    title: '工作单位',
+                    width:300
                 }, {
                     field: 'time',
                     title: '询问时间',
-                    width: 80
+                    width: 240
                 }, {
                     field: 'name2',
                     title: '询问人',
-                    width: 100
+                    width: 160
                 }, {
                     field: 'certificate',
                     title: '执法证件号',
@@ -139,7 +139,7 @@
                     fixed: 'right',
                     title: '操作',
                     toolbar: '#barDemo',
-                    width: 150
+                    width: 300
                 }]
             ],
             page: true
