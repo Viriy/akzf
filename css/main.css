@@ -142,7 +142,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d04d',endCo
 .layui-table[lay-skin="grey"] td{border:none}
 .layui-table[lay-skin="grey"] tbody tr:nth-child(odd){background:#f5f5f5}
 .layui-table[lay-skin="blue"] tbody tr:nth-child(odd),.layui-table tr:nth-child(odd){background:#d4ebff}
-.layui-table td, .layui-table th{line-height:26px;padding:10px 18px;border:1px solid #2566a9}
+.layui-table td, .layui-table th,.layui-table-view .layui-table th,.layui-table-view .layui-table td{line-height:26px;padding:10px 18px;border:1px solid #2566a9}
+.layui-table-header{border-color:#e6e6e6}
 .layui-table th{white-space:nowrap;background:#3a87c9}
 
 .table_filter a{padding:6px 20px;border:1px solid transparent;vertical-align:middle}
