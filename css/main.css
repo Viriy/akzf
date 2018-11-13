@@ -156,4 +156,5 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d04d',endCo
 .layui-table tbody tr:hover{background:none}
 .layui-table-sort .layui-table-sort-asc{border-bottom-color:#fff}
 .layui-table-sort .layui-table-sort-desc{border-top-color:#fff}
-.layui-table-sort[lay-sort=asc] .layui-table-sort-asc{border-bottom-color:}
+.layui-table-sort[lay-sort=asc] .layui-table-sort-asc{}
+.layui-table-cell{height: auto}
