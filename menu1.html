@@ -30,8 +30,13 @@
     <article>
         <!-- 筛选 -->
         <form class="layui-form" action="">
-            <div class="search_wrap mt">
-                <div class="layui-form-item">
+            <div class="search_wrap clearfix mt">
+                <div class="layui-form-item fr">
+                    <div class="layui-inline">
+                        <button class="layui-btn orange" lay-submit="" title="笔录登记">笔录登记</button>
+                    </div>
+                </div>
+                <div class="layui-form-item fl">
                     <div class="layui-inline">
                         <label class="layui-form-label">询问人</label>
                         <div class="layui-input-inline">
@@ -51,10 +56,10 @@
                         </div>
                     </div>
                     <div class="layui-inline">
-                        <button class="layui-btn blue" lay-submit="">查 询</button>
+                        <button class="layui-btn blue" lay-submit="" title="查询">查 询</button>
                     </div>
                     <div class="layui-inline">
-                        <button class="layui-btn green" lay-submit=""><i class="i i_print mr5"></i>打印</button>
+                        <button class="layui-btn green" lay-submit="" title="打印"><i class="i i_print mr5"></i>打印</button>
                     </div>
                 </div>
             </div>
@@ -102,6 +107,7 @@
                     field: 'number',
                     title: '序号',
                     fixed: 'left',
+                    width: '100',
                     unresize: true,
                     sort: true
                 }, {
