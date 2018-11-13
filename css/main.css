@@ -12,7 +12,7 @@ em,b{font-weight:normal;font-style:normal}
 
 .fl{float:left}
 .fr{float:right}
-.tc,.table_filter td[bgcolor],.layui-table th{text-align:center}
+.tc,.table_filter td[bgcolor]{text-align:center}
 
 .f12{font-size:12px}
 .f14{font-size:14px}
