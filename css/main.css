@@ -190,7 +190,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .layui-table-sort .layui-table-sort-asc{border-bottom-color:#fff}
 .layui-table-sort .layui-table-sort-desc{border-top-color:#fff}
 .layui-table-sort[lay-sort=asc] .layui-table-sort-asc{}
-.layui-table-cell{height:auto}
+.layui-table-cell{height:auto;padding:0 12px}
 
 
 .print_wrap{width:756px;
