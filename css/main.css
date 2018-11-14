@@ -119,7 +119,7 @@ header.min i{background-size:auto 40px;height:40px}
 .menu_wrap .menu5{margin-left:276px;margin-top:-36px}
 .menu_wrap .menu6{margin-left:128px;margin-top:-324px}
 
-article{padding:0 30px 120px}
+article{padding:0 0 120px}
 .site_wrap{padding:0 30px;line-height:56px;border-bottom:1px solid #dde4e9;background:rgba(255,255,255,.4);}
 
 .site_wrap b{color:#ccc}
@@ -190,7 +190,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .layui-table-sort .layui-table-sort-asc{border-bottom-color:#fff}
 .layui-table-sort .layui-table-sort-desc{border-top-color:#fff}
 .layui-table-sort[lay-sort=asc] .layui-table-sort-asc{}
-.layui-table-cell{height:auto;padding:0 12px}
+.layui-table-cell{height:auto}
 
 
 .print_wrap{width:756px;
