@@ -189,7 +189,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .print_wrap{width:756px;
 	/* height:1086px; */
 	margin:30px auto;color:#333;font-family:"宋体",SimSun;line-height:2.2em}
-.print_wrap .logo{line-height:110px;letter-spacing:10px;border-bottom:1px solid #999;padding-bottom:20px}
+/* .print_wrap .logo{line-height:110px;letter-spacing:10px;border-bottom:1px solid #999;padding-bottom:20px}
 .print_wrap input,.print_wrap select,.print_wrap textarea{text-decoration:underline;border:none;min-height:1.8em;background:none;position: relative;z-index: 3}
 .print_wrap table input,.print_wrap table select,.print_wrap table textarea{max-width:100%;vertical-align:middle}
 .w100 input,.w100 select,.w100 textarea{text-decoration:none}
@@ -206,9 +206,9 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .file_txt .file{left:0;top:0;opacity:0;filter:alpha(opacity=0)}
 .file_txt .add,.file_txt .txt{width:100%;text-align:center;left:0;cursor:pointer;z-index:1}
 .file_txt .add{top:46px;height:110px;background:url('../images/add.gif') 50% no-repeat}
-.file_txt .txt{top:156px}
+.file_txt .txt{top:156px} */
 
-/* .print_wrap .layui-table td{padding:6px 16px}
+.print_wrap .layui-table td{padding:6px 16px}
 .w100,.w100 input,.w100 select,.w100 textarea{width:100% !important}
 
 .input_txt{text-decoration:underline;cursor:text;overflow-y:scroll; word-break:break-all; word-wrap:break-word;position: relative;z-index: 3}
@@ -228,6 +228,6 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .layui-btn-lg {
     padding: 0 25px;
     font-size: 16px;
-} */
+}
 
 .i_seal{bottom:-42px;right:-20px;width:162px;height: 160px;background: url('../images/seal.png') 50% no-repeat;background-size: cover;z-index: 0}
