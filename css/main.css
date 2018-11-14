@@ -202,7 +202,19 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .print_wrap .tit{line-height:1.2em;color:#222}
 .print_wrap [disabled]{color:#222}
 
+.file_txt,.file_txt .file{width:100%;height:240px;padding:0;cursor:pointer;position:relative;z-index:3}
+.file_txt .file{left:0;top:0;opacity:0;filter:alpha(opacity=0)}
+.file_txt .add,.file_txt .txt{width:100%;text-align:center;left:0;cursor:pointer;z-index:1}
+.file_txt .add{top:46px;height:110px;background:url('../images/add.gif') 50% no-repeat}
+.file_txt .txt{top:156px}
 
+/* .print_wrap .layui-table td{padding:6px 16px}
+.w100,.w100 input,.w100 select,.w100 textarea{width:100% !important}
+
+.input_txt{text-decoration:underline;cursor:text;overflow-y:scroll; word-break:break-all; word-wrap:break-word;position: relative;z-index: 3}
+.input_txt:focus{outline:none}
+.layui-btn-warm {background-color:#FFB800}
+.layui-btn-del{background-color:#FF5722}
 
 
 .layui-form-switch{height:36px;line-height:36px;min-width:70px}
@@ -216,6 +228,6 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb800',endCo
 .layui-btn-lg {
     padding: 0 25px;
     font-size: 16px;
-}
+} */
 
 .i_seal{bottom:-42px;right:-20px;width:162px;height: 160px;background: url('../images/seal.png') 50% no-repeat;background-size: cover;z-index: 0}
