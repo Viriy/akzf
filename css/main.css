@@ -1,4 +1,4 @@
-body{font-family:"Helvetica Neue",Helvetica,"PingFang SC",微软雅黑,Tahoma,Arial,sans-serif;color:#666;cursor:default}
+body{font-family:"Helvetica Neue",Helvetica,"PingFang SC",微软雅黑,Tahoma,Arial,sans-serif;color:#666;cursor:default;overflow-y: auto}
 button{border:none;cursor:pointer}
 
 p{margin:0}
