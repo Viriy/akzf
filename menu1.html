@@ -22,7 +22,7 @@
             <a href="user.html" title="用户中心" alt="用户中心"><i class="i i_user"></i><p>用户中心</p></a>
             <a href="login.html" title="退出" alt="退出"><i class="i i_exit"></i><p>退出</p></a>
         </nav>
-        <a class="logo_l logo_s fl" href="" title="安康市农业综合执法规范办案系统" alt="安康市农业综合执法规范办案系统"></a>
+        <a class="logo_l logo_s fl" href="index.html" title="安康市农业综合执法规范办案系统" alt="安康市农业综合执法规范办案系统"></a>
     </header>
     <div class="site_wrap f14">
         <i class="i i_pos"></i><a href="">首页</a><b>></b><em>现场执法数据录入</em>
@@ -106,33 +106,42 @@
                     field: 'number',
                     title: '序号',
                     unresize: true,
+                    width : 80,
                     sort: true
                 }, {
                     field: 'name1',
                     title: '被询问人姓名',
+                    width : 120,
                     edit: 'text'
                 }, {
                     field: 'gender',
                     title: '性别',
+                    width :60,
                     edit: 'text'
                 }, {
                     field: 'id',
                     title: '身份证号',
+                    minWidth : 180,
                 }, {
                     field: 'address',
                     title: '工作单位',
+                    minWidth : 240,
                 }, {
                     field: 'time',
                     title: '询问时间',
+                    width :100,
                 }, {
                     field: 'name2',
                     title: '询问人',
+                    width :120,
                 }, {
                     field: 'certificate',
                     title: '执法证件号',
+                    width :120,
                 }, {
                     title: '操作',
                     toolbar: '#barDemo',
+                    min-width :300,
                 }]
             ],
             page: true
